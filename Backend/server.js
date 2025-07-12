@@ -26,10 +26,10 @@ app.use("/api/v1/users", require("./Routes/userRoute"));
 app.use("/api/v1/transactions", require("./Routes/transactionRoutes"));
 
 //static file
-app.use(express.static(path.join(__dirname, "./client/build")));
-app.get("*", function (req, res) {
-  res.sendFile(path.join(__dirname, "./client/build/index.html"));
-});
+// app.use(express.static(path.join(__dirname, "./client/build")));
+// app.get("*", function (req, res) {
+//   res.sendFile(path.join(__dirname, "./client/build/index.html"));
+// });
 
 //port
 const PORT = process.env.PORT  || 8080 ;
