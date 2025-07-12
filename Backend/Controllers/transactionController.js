@@ -1,4 +1,4 @@
-const transactionModel = require("../../Models/transactionModel");
+const transactionModel = require("../Models/transactionModel");
 const moment = require("moment");
 
 const getAllTransaction = async (req, res) => {

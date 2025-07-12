@@ -1,4 +1,4 @@
-const userModel = require("../../Models/userModel");
+const userModel = require("../Models/userModel");
 
 //login ctrler async for error handling
 const loginController = async (req, res) => {
